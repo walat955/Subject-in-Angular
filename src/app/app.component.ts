@@ -69,6 +69,12 @@ export class AppComponent {
     BSubject.subscribe(console.log);
 
 
+    /* more:
+    this mean the BSubject will only accept 1 of those 3 values <'u' | true | 123> and nothing else.
+      const BSubject = new BehaviorSubject<'u' | true | 123>(123);
+
+    */
+
     /*
     Why use BehaviorSubject?
     This specialized subject is ideal when you want to maintain and provide a "current value" to subscribers.
