@@ -76,6 +76,15 @@ export class AppComponent {
     */
 
     /*
+    A Subject is from the RxJS(Reactive Extensions Library for JavaScript) library
+    A Subject is an observable and an observer at the same time: 
+      •	Observable: It emits values to its subscribers, just like any other observable.
+      •	Observer: It can also receive values through its next() method, which it then forwards to its subscribers.
+
+    */
+
+
+    /*
     Why use BehaviorSubject?
     This specialized subject is ideal when you want to maintain and provide a "current value" to subscribers.
     Think of it as a scoreboard in a basketball game.
