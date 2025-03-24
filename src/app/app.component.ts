@@ -111,5 +111,8 @@ export class AppComponent {
     And if you don't need any history at all, a simple Subject might be what you're looking for.
     */
 
+    /*Note:
+     subscribe() expects a function as its argument. Specifically, a function that will be called when a new value is emitted from the observable.
+     you can not just pass a normal variable or property*/
   }
 }
